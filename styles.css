@@ -1,0 +1,132 @@
+:root {
+  --main-bg-color: #020617;
+  --main-font: #f8fafc;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(https://emerging-europe.com/wp-content/uploads/2020/03/ukrainian-cuisine.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 8fr 0.5fr;
+}
+
+.header {
+  color: var(--main-font);
+  background-color: var(--main-bg-color);
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.header-name {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(left, #dc2626, #fca5a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 2rem;
+}
+
+.link-list > li:hover {
+  color: #dc2626;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.main-content {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(https://emerging-europe.com/wp-content/uploads/2020/03/ukrainian-cuisine.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.invite {
+  font-size: 4rem;
+  margin-bottom: -4rem;
+}
+
+.info {
+  color: var(--main-font);
+  background-color: rgb(2, 6, 23, 0.7);
+  border-radius: 20px;
+  flex-wrap: wrap;
+  height: 50%;
+  display: flex;
+  width: 40%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.order {
+  color: var(--main-font);
+  text-decoration: none;
+  background-color: #dc2626;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.order:hover {
+  background-color: #b91c1c;
+}
+
+.footer {
+  background-color: rgb(2, 6, 23, 0.9);
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.author {
+  font-size: 1.4rem;
+  color: var(--main-font);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.author:hover {
+  color: #f97316;
+  transition: 0.3s;
+}
+
+.github-logo {
+  width: 2rem;
+  fill: red;
+  cursor: pointer;
+}
