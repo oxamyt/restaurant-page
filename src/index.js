@@ -1,1 +1,1 @@
-console.log('Hi!')
+import { renderHomePage } from "./home-page";
