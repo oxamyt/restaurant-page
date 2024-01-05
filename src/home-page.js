@@ -1,4 +1,5 @@
-const renderHomePage = (() => {
+
+const renderHomePage = () => {
   const content = document.querySelector(".content");
 
   const container = document.createElement("div");
@@ -7,9 +8,9 @@ const renderHomePage = (() => {
     <div class="name"><h1 class="header-name">Borscht & Brews</h1></div>
     <div class="links">
       <ul class="link-list">
-        <li class="menu-choice">Home</li>
-        <li class="menu-choice">Menu</li>
-        <li class="menu-choice">Contact us</li>
+      <li class="home-choice">Home</li>
+      <li class="menu-choice">Menu</li>
+      <li class="contact-choice">Contact us</li>
       </ul>
     </div>
   </div>
@@ -31,6 +32,6 @@ const renderHomePage = (() => {
   </div>`;
 
   content.appendChild(container);
-})();
+};
 
-export{renderHomePage};
+export { renderHomePage };
