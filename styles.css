@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  font-family: 'Roboto', 'sans-serif';
 }
 
 .container {
@@ -40,11 +41,12 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.link-list {
+.link-list{
   list-style: none;
   display: flex;
   gap: 30px;
   font-size: 2rem;
+  transition: 0.5s;
 }
 
 .link-list > li:hover {
@@ -61,10 +63,6 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  /* background-image: url(https://emerging-europe.com/wp-content/uploads/2020/03/ukrainian-cuisine.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
 }
 
 .invite {
@@ -99,6 +97,10 @@ body {
   transition: 0.5s;
 }
 
+.order:hover {
+  background-color: #b91c1c;
+}
+
 .dish-content {
   grid-column: 1 / 5;
   grid-row: 2 / 3;
@@ -109,7 +111,8 @@ body {
 
 .main-dish-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  padding: 2rem;
   grid-template-rows: 1fr 1fr;
   gap: 25px;
 }
@@ -121,10 +124,19 @@ body {
   align-items: center;
   background-color: rgb(2, 6, 23, 0.9);
   color: var(--main-font);
+  font-size: 1.3rem;
+  border-radius: 20px;
+}
+
+.dish:hover{
+  background-color: rgb(2, 6, 23, 0.95);
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .description {
   text-align: center;
+  padding: 1rem;
 }
 
 .dish-photo {
@@ -132,10 +144,6 @@ body {
   height: 15rem;
   border-radius: 25px;
   margin-top: 1rem;
-}
-
-.order:hover {
-  background-color: #b91c1c;
 }
 
 .contact-info {
@@ -165,7 +173,6 @@ body {
 
 .svg {
   width: 2rem;
-  fill: white;
 }
 
 .location-photo{
@@ -197,6 +204,5 @@ body {
 
 .github-logo {
   width: 2rem;
-  fill: red;
   cursor: pointer;
 }
