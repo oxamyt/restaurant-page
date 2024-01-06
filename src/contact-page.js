@@ -17,15 +17,15 @@ const renderContactPage = () => {
   <div class="main-content">
     <div class="contact-info">
       <div class="contact-card">
-        <img class="svg" src="../assets/phone-call-svgrepo-com.svg" alt="phone svg">
+        <img class="svg" src="assets/phone-call-svgrepo-com.svg" alt="phone svg">
         <p class="contact-text">0980565793</p>
       </div>
       <div class="contact-card">
-        <img class="svg" src="../assets/location-pin-svgrepo-com.svg" alt="location svg">
+        <img class="svg" src="assets/location-pin-svgrepo-com.svg" alt="location svg">
         <p class="contact-text">66, Velyka Vasylkivska Street, Kyiv, 03150</p>
       </div>
       <div class="contact-card">
-        <img class="location-photo" src="../assets/map.png" alt="location on map">
+        <img class="location-photo" src="assets/map.png" alt="location on map">
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@ const renderContactPage = () => {
     <p class="author"><a class="author" href="https://github.com/oxamyt">Oxamyt</a></p>
     <img
       class="github-logo"
-      src="../assets/github-mark-white.svg"
+      src="assets/github-mark-white.svg"
       alt="github-logo"
     />
   </div>`;

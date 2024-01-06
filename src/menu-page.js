@@ -20,7 +20,7 @@ const renderMenuPage = () => {
         <img
           class="dish-photo"
           alt="picture of Borscht"
-          src="../assets/Borscht.jpeg"
+          src="assets/Borscht.jpeg"
         />
         <h1 class="dish-name">Borscht</h1>
         <p class="description">
@@ -34,7 +34,7 @@ const renderMenuPage = () => {
         <img
           class="dish-photo"
           alt="picture of Borscht"
-          src="../assets/varenyki.jpg"
+          src="assets/varenyki.jpg"
         />
         <h1 class="dish-name">Varenyki</h1>
         <p class="description">
@@ -49,7 +49,7 @@ const renderMenuPage = () => {
         <img
           class="dish-photo"
           alt="picture of Borscht"
-          src="../assets/holubtsi.jpg"
+          src="assets/holubtsi.jpg"
         />
         <h1 class="dish-name">Holubtsi</h1>
         <p class="description">
@@ -63,7 +63,7 @@ const renderMenuPage = () => {
         <img
           class="dish-photo"
           alt="picture of Borscht"
-          src="../assets/deruny.jpg"
+          src="assets/deruny.jpg"
         />
         <h1 class="dish-name">Deruny</h1>
         <p class="description">
@@ -78,7 +78,7 @@ const renderMenuPage = () => {
         <img
           class="dish-photo"
           alt="picture of Borscht"
-          src="../assets/syrnyki.jpg"
+          src="assets/syrnyki.jpg"
         />
         <h1 class="dish-name">Syrnyki</h1>
         <p class="description">
@@ -92,7 +92,7 @@ const renderMenuPage = () => {
         <img
           class="dish-photo"
           alt="picture of Borscht"
-          src="../assets/beer.jpg"
+          src="assets/beer.jpg"
         />
         <h1 class="dish-name">Craft Beer</h1>
         <p class="description">
@@ -111,7 +111,7 @@ const renderMenuPage = () => {
     </p>
     <img
       class="github-logo"
-      src="../assets/github-mark-white.svg"
+      src="assets/github-mark-white.svg"
       alt="github-logo"
     />
   </div>

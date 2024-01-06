@@ -26,7 +26,7 @@ const renderHomePage = () => {
     <p class="author"><a class="author" href="https://github.com/oxamyt">Oxamyt</a></p>
     <img
       class="github-logo"
-      src="../assets/github-mark-white.svg"
+      src="assets/github-mark-white.svg"
       alt="github-logo"
     />
   </div>`;
