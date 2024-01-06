@@ -1,5 +1,6 @@
 import { renderHomePage } from "./home-page";
 import { renderMenuPage } from "./menu-page";
+import { renderContactPage } from "./contact-page";
 
 renderHomePage()
 
@@ -16,11 +17,18 @@ document.querySelector('.content').addEventListener('click', function(event){
         clearRender();
         renderMenuPage();
     }
+    else if (target.classList.contains('order')){
+        clearRender();
+        renderMenuPage();
+    }
     else if (target.classList.contains('home-choice')){
         clearRender();
         renderHomePage();
     }
+    else if (target.classList.contains('contact-choice')){
+        clearRender();
+        renderContactPage();
+    }
     
 })
 
-export{addEventsListeners}
